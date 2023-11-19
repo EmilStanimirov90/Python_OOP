@@ -1,2 +1,2 @@
 # Python_OOP
-Python OOP lectures and excercises
+SOftUni_Python_OOP_lectures_and_excercises
