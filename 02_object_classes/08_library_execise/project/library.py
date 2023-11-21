@@ -34,4 +34,3 @@ class Library:
         user.books.remove(book_name)
         self.books_available[author].append(book_name)
         self.rented_books[user.username].pop(book_name)
-
