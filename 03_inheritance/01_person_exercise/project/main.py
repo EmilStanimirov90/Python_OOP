@@ -1,5 +1,5 @@
-from project.child import Child
-from project.person import Person
+from project import Child
+from project import Person
 
 person = Person("Peter", 25)
 child = Child("Peter Junior", 5)

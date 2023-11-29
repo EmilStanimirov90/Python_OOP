@@ -1,5 +1,5 @@
-from project.lizard import Lizard
-from project.mammal import Mammal
+from project import Lizard
+from project import Mammal
 
 mammal = Mammal("Stella")
 print(mammal.__class__.__bases__[0].__name__)

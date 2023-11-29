@@ -1,6 +1,6 @@
 from typing import List
 
-from project.room import Room
+from project import Room
 
 
 class Hotel:
@@ -35,7 +35,7 @@ class Hotel:
                 f"Taken rooms: {', '.join([str(room.number) for room in self.rooms if room.is_taken])}")
 
 
-#test code:
+
 
 
 

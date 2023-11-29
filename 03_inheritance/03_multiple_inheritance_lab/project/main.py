@@ -1,4 +1,4 @@
-from project.teacher import Teacher
+from project import Teacher
 
 t = Teacher()
 print(t.sleep())
