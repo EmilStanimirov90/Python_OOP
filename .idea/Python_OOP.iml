@@ -4,7 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/01_first_stpes_in_OOP/08_pokemon_battle_exercise" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/03_inheritance/03_multiple_inheritance" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/06_polymorphism_and_abstraction/04_wild_farm_exercise" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/06_polymorphism_and_abstraction/05_animals_exercise" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="inheritedJdk" />
