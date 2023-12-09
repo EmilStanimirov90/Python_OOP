@@ -30,12 +30,12 @@ class TestTrip(TestCase):
         self.assertEqual('This destination is not in our offers, please choose a new one!',
                          self.t3t.book_a_trip("x"))
 
-
     def test_book_trip_not_enough_budget(self):
         self.assertEqual('Your budget is not enough!', self.t3t.book_a_trip("New Zealand"))
 
     def test_book_trip_success_no_discount(self):
-        self.assertEqual(f'Successfully booked destination Bulgaria! Your budget left is 9000.00',self.t2f.book_a_trip("Bulgaria"))
+        self.assertEqual(f'Successfully booked destination Bulgaria! Your budget left is 9000.00',
+                         self.t2f.book_a_trip("Bulgaria"))
         self.assertEqual(9000, self.t2f.budget)
         self.assertEqual({"Bulgaria": 1000}, self.t2f.booked_destinations_paid_amounts)
 
@@ -49,7 +49,6 @@ class TestTrip(TestCase):
         self.assertEqual('No bookings yet. Budget: 10000.00', self.t2f.booking_status())
 
     def test_booking_sorted(self):
-
         self.t3t.budget = 100000
         self.t3t.book_a_trip("Bulgaria")
         self.t3t.book_a_trip("Australia")
@@ -60,7 +59,6 @@ Paid Amount: 900.00
 Number of Travelers: 2
 Budget Left: 88840.00"""
         self.assertEqual(expected_result, self.t3t.booking_status())
-
 
 
 if __name__ == "__main__":

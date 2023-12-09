@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/03_inheritance/03_multiple_inheritance" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/11_exam_prep/12-Exam-Preparation/01_ex_skel" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/11_exam_prep/12-Exam-Preparation/testing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/14_exam/classes/01-Structure-Skeleton" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="inheritedJdk" />
